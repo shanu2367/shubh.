@@ -1,0 +1,89 @@
+ body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(120deg, #0f0f0f, #1a1a1a);
+      color: #00ffcc;
+      padding: 30px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: #00ffcc;
+      text-shadow: 0 0 8px #00ffcc;
+    }
+
+    p, li, label, span {
+      color: #e0e0e0;
+    }
+
+    img {
+      border: 3px solid #00ffcc;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    ul, ol {
+      list-style-position: inside;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ff00ff;
+      text-shadow: 0 0 5px #ff00ff;
+    }
+
+    .marks-table {
+      border-collapse: collapse;
+      width: 90%;
+      margin: 20px ;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    .marks-table th,
+    .marks-table td {
+      border: 1px solid #00ffcc;
+      padding: 10px;
+      background-color: #121212;
+    }
+
+    form {
+      background: #1e1e1e;
+      padding: 20px;
+      max-width: 500px;
+      margin: 30px ;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      background-color: #000;
+      color: #00ffcc;
+      border: 1px solid #00ffcc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: #00ffcc;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ff00ff;
+      color: #fff;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: auto;
+    }
