@@ -1,0 +1,257 @@
+ #body{
+    color: rgb(233, 26, 26);
+    background-color: rgb(139, 160, 160);
+    height: 100px;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10px;
+}
+ #header{
+    color: #cd5233;
+    display:flex;
+    justify-content:space-between;
+      align-items: center;
+  padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large ;
+
+}
+ #header a{
+    color: rgb(190, 12, 12);
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: large;
+    padding-right:30px;
+
+ }
+ .login-button{
+  height: 20px;
+  color:rgb(219, 33, 33);
+  border:1px;
+
+ }
+ .login-button:hover:hover{
+   background-color: rgb(255, 251, 6);
+   width:50px;
+   transition: 2s ease;
+      
+ }
+ #div1{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #259dbb;
+    margin-right: 50px;
+
+ }
+ .logo img {
+
+  width: 50px; 
+  height: 50px; 
+  border-radius: 2px;
+ 
+
+}
+h1{
+ height: max-content;  
+  color: rgb(253, 120, 11);
+    font-size:xx-large,xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mission-button {
+  background-color: #cd5233;
+  color: #fff;
+  border: #e76f51;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-size: 15px;
+ 
+}
+img {
+  height: 470px;
+  width: 500px;;
+ border-radius: 0%;
+ 
+}
+#div2 {
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 50px;}
+
+  .para{
+    font-size:xx-large;
+    font-family:IBM Plex Sans', sans-serif';
+    text-align: center;
+    
+
+  }
+.main2{
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+.nav{
+  font-size: x-large;
+  text-align: center;
+  color: aqua;
+  text-decoration: #cd5233;
+  transform: 2s ease;
+}
+.year{
+  font-size: larger;
+  font-family: serif;
+  text-align: center;
+  color: black;
+}
+.count{ 
+  flex-direction: column;
+  color: rgb(241, 241, 4);
+  font-size: xx-large;
+  gap: 0.25rem;
+  padding: 0px 3.25rem;
+  border-right-width: 0px;
+   border-bottom-width: 2px;
+    max-width: 420px;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    text-align: left;
+    display: block;
+        box-sizing: border-box;}
+  
+    .count-name{
+      color: black;
+      padding: 0px 3.25rem;
+      height: 60px;
+    font-size:x-large;
+    font-family:'IBM Plex Sans', sans-serif;
+       box-sizing: border-box;
+   
+    }
+    .count-description{
+      font-size:20px;
+      padding: 0px 3.25rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: justify;
+       box-sizing:  border-box;}
+   
+   
+  
+.cmp{ 
+  flex-direction: column;
+    
+  color: rgb(236, 35, 9);
+  font-size: xx-large;
+  gap: 0.25rem;
+  padding: 0px 3.25rem;
+  border-right-width: 0px;
+   border-bottom-width: 2px;
+    max-width: 420px;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    text-align: left;
+    display: block;
+        box-sizing: border-box;}
+  
+    .cmp-name{
+      color: black;
+       
+      padding: 0px 3.25rem;
+      height: 60px;
+    font-size:x-large;
+    font-family:'IBM Plex Sans', sans-serif;
+       box-sizing: border-box;}
+
+     .cmp-description{
+    
+      font-size:20px;
+      padding: 0px 3.25rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: justify;
+       box-sizing:  border-box;
+      }
+  
+.tech{ 
+  flex-direction: column;
+    
+  color: rgb(248, 223, 0);
+  font-size: xx-large;
+  gap: 0.25rem;
+  padding: 0px 3.25rem;
+  border-right-width: 0px;
+   border-bottom-width: 2px;
+    max-width: 420px;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    text-align: left;
+    display: block;
+        box-sizing: border-box;}
+  
+    .tech-name{
+      color: black;
+      padding: 0px 3.25rem;
+      height: 60px;
+    font-size:x-large;
+    font-family:'IBM Plex Sans', sans-serif;
+       box-sizing: border-box;}
+
+     .tech-description{
+    
+      font-size:20px;
+      padding: 0px 3.25rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: justify;
+       box-sizing:  border-box;
+      }
+      .tech-1{
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+      }
+
+.red{ 
+  flex-direction: column;
+    
+  color: rgb(248, 223, 0);
+  font-size: xx-large;
+  gap: 0.25rem;
+  padding: 0px 3.25rem;
+  border-right-width: 0px;
+   border-bottom-width: 2px;
+    max-width: 420px;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    text-align: left;
+    display: block;
+        box-sizing: border-box;}
+  
+    .red-name{
+      color: black;
+      padding: 0px 3.25rem;
+      height: 60px;
+    font-size:x-large;
+    font-family:'IBM Plex Sans', sans-serif;
+       box-sizing: border-box;}
+
+     .red-description{
+    
+      font-size:20px;
+      padding: 0px 3.25rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: justify;
+       box-sizing:  border-box;
+      }
+
+.codder{
+
+  color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+   justify-content: center;
+   text-align: right;
+
+}
+#university-logos{
+  border-image-outset: 2px;
+  width:5px; 
+  height:5px; 
+  border-radius: 1px;
+}
